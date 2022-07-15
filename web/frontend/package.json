@@ -6,8 +6,8 @@
     "build": "vite build",
     "dev": "vite",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
-    
+    "coverage": "vitest run --coverage",
+    "start": "npm run dev"
   },
   "type": "module",
   "engines": {
