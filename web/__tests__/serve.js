@@ -2,8 +2,8 @@ import path from "path";
 
 // Hard-code some dummy values for the environment variables so that we can run the tests without needing to set them up
 // If the CLI ever evolves to run the tests itself, we can rely on it to give us these values
-process.env.SHOPIFY_API_KEY = "TEST_SHOPIFY_API_KEY";
-process.env.SHOPIFY_API_SECRET = "TEST_SHOPIFY_SECRET";
+process.env.SHOPIFY_API_KEY = "c0a50307c10698b6998dfea590c2dad0";
+process.env.SHOPIFY_API_SECRET = "04f640b095353a46a1ba4f5126cf4e4b";
 process.env.HOST = "TEST_TUNNEL_URL";
 process.env.SCOPES = "TEST_SCOPES";
 process.env.BACKEND_PORT = 9528;
