@@ -10,7 +10,7 @@
     "info": "shopify app info",
     "scaffold": "shopify app scaffold",
     "deploy": "shopify app deploy",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+    "heroku-postbuild": "heroku-postbuild": "npm run dev"
   },
   "dependencies": {
     "@shopify/app": "3.2.0",
