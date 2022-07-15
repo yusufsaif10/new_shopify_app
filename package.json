@@ -9,8 +9,7 @@
     "dev": "shopify app dev",
     "info": "shopify app info",
     "scaffold": "shopify app scaffold",
-    "deploy": "shopify app deploy",
-    "heroku-postbuild": "heroku-postbuild": "npm run dev"
+    "deploy": "shopify app deploy"
   },
   "dependencies": {
     "@shopify/app": "3.2.0",
