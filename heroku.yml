@@ -1,0 +1,8 @@
+
+   ```yaml
+   build:
+     docker:
+       web: Dockerfile
+     config:
+       SHOPIFY_API_KEY: c0a50307c10698b6998dfea590c2dad0
+   ```
