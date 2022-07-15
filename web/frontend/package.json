@@ -6,7 +6,8 @@
     "build": "vite build",
     "dev": "vite",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
   "type": "module",
   "engines": {
